@@ -66,7 +66,8 @@
 
     <div class="container border p-0">
 
-        <div class="text-start text-uppercase border-bottom px-3 "style="height: 40px; line-height: 40px; background-color: #f5f5f5;">
+        <div class="text-start text-uppercase border-bottom px-3 "
+            style="height: 40px; line-height: 40px; background-color: #f5f5f5;">
             <i class="bi bi-pencil-square"></i>
             <span class="mx-3" style=" height: 35px; line-height: 30px; font-weight: bold;"> Nhập lương tháng
                 12</span>
@@ -122,16 +123,274 @@
             <button type="button" class="btn btn-outline-secondary" style="color: black; width: 70px; height: 40px;"><i
                     class="bi bi-x-square-fill me-1"></i> Huỷ</button>
         </div>
-        <div class="text-start border-top px-3" style="height: 40px; line-height: 40px; background-color: #f5f5f5;" >
+        <div class="text-start border-top px-3" style="height: 40px; line-height: 40px; background-color: #f5f5f5;">
             <i class="bi bi-pencil-square"></i>
-            <span class="mx-3" style=" height: 35px; line-height: 30px; font-weight: bold;">Vui lòng nhập thông tin lương cầu thủ </span>
+            <span class="mx-3" style=" height: 35px; line-height: 30px; font-weight: bold;">Vui lòng nhập thông tin
+                lương cầu thủ </span>
         </div>
     </div>
     <div class="container">
         <h1>Bài 3</h1>
     </div>
     <div class="container">
-        
+        <div class="row">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                        type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                        <i class="bi bi-pencil-square me-1"></i>
+                        Cập nhật</button>
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i
+                            class="bi bi-list-task me-1"></i> Danh sách</button>
+
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                    tabindex="0">
+                    <div class="container border p-0">
+
+                        <div class="text-start text-uppercase border-bottom px-3 "
+                            style="height: 40px; line-height: 40px; background-color: #f5f5f5;">
+                            <i class="bi bi-pencil-square"></i>
+                            <span class="mx-3" style=" height: 35px; line-height: 30px; font-weight: bold;"> Nhập lương
+                                tháng
+                                12</span>
+                        </div>
+                        <div class="row p-3">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">Mã nhân viên</label>
+                                    <input type="text" class="form-control form-control-lg " id="formGroupExampleInput">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput2" class="form-label">Câu lạc bộ</label>
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                        <option selected>Đà nẵng</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">Thưởng</label>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" class="form-control form-control-lg"
+                                            aria-label="Amount (to the nearest dollar)">
+                                        <span class="input-group-text">.00</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">Họ tên</label>
+                                    <input type="text" class="form-control form-control-lg " id="formGroupExampleInput">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">Lương</label>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" class="form-control form-control-lg"
+                                            aria-label="Amount (to the nearest dollar)">
+                                        <span class="input-group-text">.00</span>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">Phụ cấp</label>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" class="form-control form-control-lg"
+                                            aria-label="Amount (to the nearest dollar)">
+                                        <span class="input-group-text">.00</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row p-3">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label">Ghi chú</label>
+                                <textarea class="form-control form-control-lg" style="height: 70px;" name=""
+                                    id=""></textarea>
+                            </div>
+                        </div>
+                        <div class="p-3">
+
+                            <button type="button" class="btn btn-outline-secondary"
+                                style="color: black; width: 70px; height: 40px;"><i class="bi bi-floppy me-1"></i>
+                                Lưu</button>
+
+                            <button type="button" class="btn btn-outline-secondary"
+                                style="color: black; width: 70px; height: 40px;"><i
+                                    class="bi bi-x-square-fill me-1"></i> Huỷ</button>
+                        </div>
+                        <!-- <div class="text-start border-top px-3"
+                            style="height: 40px; line-height: 40px; background-color: #f5f5f5;">
+                            <i class="bi bi-pencil-square"></i>
+                            <span class="mx-3" style=" height: 35px; line-height: 30px; font-weight: bold;">Vui lòng
+                                nhập thông tin
+                                lương cầu thủ </span>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                    tabindex="0">
+                    <table class="table table-bordered table-hover text-center ">
+                        <tr class="text-start">
+
+                            <th colspan="5"><span class="glyphicon glyphicon-list mx-3"
+                                    style="background-color: #f5f5f5; height: 35px; line-height: 30px;"></span>BẢNG
+                                LƯƠNG THÁNG 12
+                            </th>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="text-center align-middle"
+                                style="background-color: #fafad2; font-weight: bold;">
+                                MÃ NHÂN VIÊN</td>
+                            <td rowspan="2" class="align-middle" style="background-color: #fafad2; font-weight: bold;">
+                                HỌ VÀ TÊN
+                            </td>
+                            <td colspan="3" class="" style="background-color: #fafad2; font-weight: bold;">THU NHẬP</td>
+                        </tr>
+                        <tr>
+                            <td class="text-uppercase" style="background-color: #fafad2; font-weight: bold;">Lương</td>
+                            <td class="text-uppercase" style="background-color: #fafad2; font-weight: bold;">Thưởng</td>
+                            <td class="text-uppercase" style="background-color: #fafad2; font-weight: bold;">Phụ cấp
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>NV100</td>
+                            <td>Nguyễn Công Phượng</td>
+                            <td>5000000</td>
+                            <td>500000</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>NV102</td>
+                            <td>Phan Văn Tài Em</td>
+                            <td>9000000</td>
+                            <td>600000</td>
+                            <td>100000</td>
+                        </tr>
+                        <tr>
+                            <td>NV103</td>
+                            <td>Lê Huỳnh Đức</td>
+                            <td>7000000</td>
+                            <td>300000</td>
+                            <td>200000</td>
+                        </tr>
+                        <tr class="text-start">
+
+                            <th colspan="5"><span class="mx-3"
+                                    style="background-color: #f5f5f5; height: 35px; line-height: 30px;"></span>Lương của
+                                cầu thủ và
+                                huấn luyện viên chuyên nghiệp
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Bài 4</h1>
+    </div>
+    <div class="container">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            style="height: 40px; width: 150px; font-size: 13px;">
+            Nhập lương tháng 12
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Nhập lương tháng 12</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container border p-0">
+
+                            <!-- <div class="text-start text-uppercase border-bottom px-3 "
+                                style="height: 40px; line-height: 40px; background-color: #f5f5f5;">
+                                <i class="bi bi-pencil-square"></i>
+                                <span class="mx-3" style=" height: 35px; line-height: 30px; font-weight: bold;"> Nhập
+                                    lương tháng
+                                    12</span>
+                            </div> -->
+                            <div class="row p-3">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <input type="text" placeholder="Mã nhân viên"
+                                            class="form-control form-control-lg " id="formGroupExampleInput">
+                                    </div>
+                                    <div class="mb-3">
+                                        <select class="form-select form-select-lg" aria-label="Default select example">
+                                            <option selected>Đà nẵng</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" placeholder="Thưởng" class="form-control form-control-lg "
+                                            id="formGroupExampleInput">
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <input type="text" placeholder="Họ và tên" class="form-control form-control-lg "
+                                            id="formGroupExampleInput">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" placeholder="Lương" class="form-control form-control-lg "
+                                            id="formGroupExampleInput">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="text" placeholder="Phụ cấp" class="form-control form-control-lg "
+                                            id="formGroupExampleInput">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="mb-3">
+                                    <textarea class="form-control form-control-lg" style="height: 70px;"
+                                        placeholder="Ghi chú" name="" id=""></textarea>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                    <div class="modal-footer p-3">
+
+                        <button type="button" class="btn btn-outline-secondary"
+                            style="color: black; width: 70px; height: 40px;"><i class="bi bi-floppy me-1"></i>
+                            Lưu</button>
+
+                        <button type="button" class=" btn btn-outline-secondary" data-bs-dismiss="modal"
+                            style="color: black; width: 70px; height: 40px;"><i class="bi bi-x-square-fill me-1"
+                                data-bs-dismiss="modal"></i> Huỷ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <footer class=" text-center">Nguyễn Hữu Nghĩa</footer>
     </div>
     <script src="./js/bootstrap.min.js"></script>
 </body>
