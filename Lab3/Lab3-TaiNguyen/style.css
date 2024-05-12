@@ -58,3 +58,19 @@ h5 {
     width: 130%;
     height: auto;
 } */
+.product-detail-info{
+    font-size: 15px;
+}
+.product-detail-info>li{
+    line-height: 27px;
+
+}
+.img-thumbnail{
+    height: 50px;
+    max-width: 95%;
+}
+.rowAnh>img{
+    height: 60px;
+    /* max-width: 95%; */
+    width: auto;
+}
