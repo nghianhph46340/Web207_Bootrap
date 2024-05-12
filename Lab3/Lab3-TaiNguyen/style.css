@@ -42,35 +42,45 @@ h5 {
     margin-left: 40px;
     height: 90%;
 } */
-.carousel-caption>h5{
+.carousel-caption>h5 {
     color: black;
 }
-.carousel-caption>p{
+
+.carousel-caption>p {
     color: #f0eff3;
     margin-left: -620px;
     font-size: 20px;
     text-shadow: 0px 5px 5px black;
 }
-.backgroud{
-    background: linear-gradient(90deg,#c1c1c1,#ffffff,transparent,#ffffff,#c1c1c1);
+
+.backgroud {
+    background: linear-gradient(90deg, #c1c1c1, #ffffff, transparent, #ffffff, #c1c1c1);
 }
+
 /* .anh{
     width: 130%;
     height: auto;
 } */
-.product-detail-info{
+.product-detail-info {
     font-size: 15px;
 }
-.product-detail-info>li{
+
+.product-detail-info>li {
     line-height: 27px;
 
 }
-.img-thumbnail{
+
+.img-thumbnail {
     height: 50px;
     max-width: 95%;
 }
-.rowAnh>img{
+
+.rowAnh>img {
     height: 60px;
     /* max-width: 95%; */
     width: auto;
+}
+
+.card {
+    background: linear-gradient(90deg, #ffffff, #c1c1c1, #ffffff);
 }
